@@ -1,3 +1,11 @@
+## New installation instructions
+
+Previous environment file had a lot of specific builds which aren't available anymore and extra packages which arent needed. Updated instructions-
+`   conda env create --file=environment.yml`
+    conda activate lion
+    pip install git+https://github.com/openai/CLIP.git 
+    python build_pkg.py
+`
 ## <p align="center">LION: Latent Point Diffusion Models for 3D Shape Generation<br><br> NeurIPS 2022 </p>
 <div align="center">
   <a href="https://www.cs.utoronto.ca/~xiaohui/" target="_blank">Xiaohui&nbsp;Zeng</a> &emsp; 
