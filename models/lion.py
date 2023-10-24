@@ -44,6 +44,8 @@ class LION(object):
         sampled_list = []
         output_dict = {}
 
+        # Need to understand how to use the global and local prior samples for clas
+
         # start sample global prior
         x_T_shape = [num_samples] + latent_shape[0]
         x_noisy = torch.randn(size=x_T_shape, device='cuda')
